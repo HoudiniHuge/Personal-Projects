@@ -1,0 +1,86 @@
+** start of index.html **
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Multimedia Player</title>
+</head>
+
+<body>
+<h1>BNXN Catalogue</h1>
+<section>
+  <h2>Pidgin & English</h2>
+  <audio controls aria-label="BNXN pidgin and english audio">
+<source src="https://cdn.trendybeatz.com/audio/Bnxn-Pidgin-and-English-(TrendyBeatz.com).mp3" type="audio/mp3"</audio>
+</section>
+<section>
+  <h2>BNXN's For Days</h2>
+  <video controls aria-label="BNXN for days video" width="500">
+    <source src="https://cdn.trendybeatz.com/video/Buju-For-Days-Video-(TrendyBeatz.com).mp4" type="video/mp4" </source>
+<track src="https://www.rentanadviser.com/subtitles/getsubtitle.aspx?artist=BNXN&song=For%20Days%20(Official%20Video)&type=lrc#" kind="captions" srclang="en" label="English">
+</section>
+<section>
+  <h2>Transcript</h2>
+  <p>You suppose to be my bébé
+You know I gat you for days
+Somethin' dey do me bébé
+You never call me for days
+If I do somethin' bébé
+Shey you go tell me bébé?
+'Cause you know the way I dey
+You know I need you right beside me
+You suppose to be my bébé
+You know I gat you for days
+Somethin' dey do me bébé
+You never call me for days
+If I do somethin' bébé
+Shey you go tell me bébé?
+Would you wait one minute?
+I'm confident, e no finish oh
+I tell you say me don jogodo
+On casamigo, my cup runnin' over
+Even if you run go Sokoto
+I must follow you
+You know say me, I no normal
+Ko ma dabi pe mon ke
+Everybody dey look me like monkey
+E no easy, say
+You sabi say I no dey do play with my privacy, eh-eh
+Ko ma dabi pe mon ke
+Everybody dey look me like monkey
+E no easy, say
+You sabi say I no dey do play with my privacy, eh-eh
+You suppose to be my bébé
+You know I gat you for days
+Somethin' dey do me bébé
+You never call me for days
+If I do somethin' bébé
+Shey you go tell me bébé?
+'Cause you know the way I dey
+You know I need you right beside me
+You suppose to be my bébé
+You know I gat you for days
+Somethin' dey do me bébé
+You never call me for days
+If I do somethin' bébé
+Shey you go tell me bébé?
+Would you wait one minute?
+I'm confident, e no finish oh
+Shey you go dey with the big boys eh-le, le-le
+E dey do you bébé
+You are my truth for days
+I no go do you shege
+You no go mu mi sere e
+You go be my bébé
+You are my truth for days
+You no mu mi sere
+So no go do mi shege</p>
+</section>
+</body>
+
+</html>
+
+** end of index.html **
+

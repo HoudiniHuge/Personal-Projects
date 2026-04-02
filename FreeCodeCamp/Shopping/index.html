@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Shopping Page</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <span class="logo">ShopEase</span>
+      </div>
+      <nav class="main-nav">
+        <a href="#featured">Featured</a>
+        <a href="#shop">Shop</a>
+        <a href="#categories">Categories</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <div class="header-actions">
+        <button class="icon-btn">Cart</button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-content">
+        <div>
+          <p class="eyebrow">Spring Collection</p>
+          <h1>Easy shopping for everyday essentials.</h1>
+          <p>Find top deals, new arrivals, and quality picks to refresh your wardrobe and home.</p>
+          <div class="hero-buttons">
+            <a class="btn primary" href="#shop">Shop Now</a>
+            <a class="btn secondary" href="#featured">View Deals</a>
+          </div>
+        </div>
+        <div class="hero-image">
+          <div class="product-card">
+            <span class="badge">New</span>
+            <h2>Comfy Sneakers</h2>
+            <p>Lightweight and stylish sneakers for every walk of life.</p>
+            <span class="price">$74.99</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="featured" id="featured">
+      <div class="container section-header">
+        <div>
+          <p class="eyebrow">Best sellers</p>
+          <h2>Popular picks right now</h2>
+        </div>
+        <a class="text-link" href="#shop">Browse all</a>
+      </div>
+      <div class="product-grid">
+        <article class="product-card">
+          <img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=500&q=60" alt="Wireless headphones" />
+          <div class="product-info">
+            <h3>Wireless Headphones</h3>
+            <p>Noise-cancelling comfort for your daily commute.</p>
+            <span class="price">$129.00</span>
+          </div>
+        </article>
+        <article class="product-card">
+          <img src="https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?auto=format&fit=crop&w=500&q=60" alt="Modern backpack" />
+          <div class="product-info">
+            <h3>Everyday Backpack</h3>
+            <p>Durable, water-resistant, and ready for city life.</p>
+            <span class="price">$59.50</span>
+          </div>
+        </article>
+        <article class="product-card">
+          <img src="https://images.unsplash.com/photo-1526170375885-7f67f0838458?auto=format&fit=crop&w=500&q=60" alt="Desk lamp" />
+          <div class="product-info">
+            <h3>LED Desk Lamp</h3>
+            <p>Soft lighting with adjustable brightness and style.</p>
+            <span class="price">$34.99</span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="shop" id="shop">
+      <div class="container shop-layout">
+        <aside class="filter-panel">
+          <h2>Filter</h2>
+          <div class="filter-group">
+            <label>Category</label>
+            <select>
+              <option>All</option>
+              <option>Clothing</option>
+              <option>Electronics</option>
+              <option>Home</option>
+            </select>
+          </div>
+          <div class="filter-group">
+            <label>Price</label>
+            <input type="range" min="0" max="200" value="100" />
+            <span class="range-value">Up to $100</span>
+          </div>
+          <div class="filter-group">
+            <label>Color</label>
+            <div class="color-options">
+              <span class="color-dot navy"></span>
+              <span class="color-dot rose"></span>
+              <span class="color-dot olive"></span>
+              <span class="color-dot sand"></span>
+            </div>
+          </div>
+        </aside>
+
+        <div class="products-list">
+          <div class="section-header">
+            <div>
+              <p class="eyebrow">Featured collection</p>
+              <h2>Shop by category</h2>
+            </div>
+            <span class="text-muted">Showing 12 items</span>
+          </div>
+          <div class="product-grid product-grid--large">
+            <article class="product-card">
+              <img src="https://images.unsplash.com/photo-1512436991641-6745cdb1723f?auto=format&fit=crop&w=500&q=60" alt="Sunglasses" />
+              <div class="product-info">
+                <h3>Classic Sunglasses</h3>
+                <p>UV protection with a timeless finish.</p>
+                <span class="price">$45.00</span>
+              </div>
+            </article>
+            <article class="product-card">
+              <img src="https://images.unsplash.com/photo-1526170375885-4c4b8a4959d?auto=format&fit=crop&w=500&q=60" alt="Smart watch" />
+              <div class="product-info">
+                <h3>Smart Watch</h3>
+                <p>Track your day with a sleek companion.</p>
+                <span class="price">$199.00</span>
+              </div>
+            </article>
+            <article class="product-card">
+              <img src="https://images.unsplash.com/photo-1530193941450-2f8a4c3511d?auto=format&fit=crop&w=500&q=60" alt="Sweater" />
+              <div class="product-info">
+                <h3>Cozy Sweater</h3>
+                <p>Soft knit layers for cooler evenings.</p>
+                <span class="price">$62.00</span>
+              </div>
+            </article>
+            <article class="product-card">
+              <img src="https://images.unsplash.com/photo-1495121605193-b116b5b9c5d3?auto=format&fit=crop&w=500&q=60" alt="Home decor" />
+              <div class="product-info">
+                <h3>Minimal Décor</h3>
+                <p>Handpicked pieces for a calm home aesthetic.</p>
+                <span class="price">$28.00</span>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="newsletter" id="contact">
+      <div class="container newsletter-card">
+        <div>
+          <p class="eyebrow">Stay in the loop</p>
+          <h2>Join our mailing list for exclusive offers.</h2>
+        </div>
+        <form class="newsletter-form">
+          <input type="email" placeholder="Enter your email" />
+          <button type="submit" class="btn primary">Subscribe</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>&copy; 2026 ShopEase. All rights reserved.</p>
+      <div class="social-links">
+        <a href="#">Instagram</a>
+        <a href="#">Facebook</a>
+        <a href="#">Twitter</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,131 @@
+:root {
+  --bg: #121212;
+  --card: #1f1f1f;
+  --accent: #4f92ff;
+  --text: #e6e6e6;
+  --muted: #9aa5b1;
+  --correct: #28a745;
+  --wrong: #dc3545;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  font-family: Inter, system-ui, sans-serif;
+  background: radial-gradient(circle at top, #2a2a2a, #121212 60%);
+  color: azure;
+  display: grid;
+  place-items: center;
+  padding: 24px;
+}
+
+.quiz-container {
+  width: min(640px, 100%);
+}
+
+.card {
+  background: var(--card);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 24px;
+  padding: 28px;
+  box-shadow: 0 22px 60px rgba(0, 0, 0, 0.35);
+}
+
+h1 {
+  margin: 0 0 16px;
+  font-size: clamp(2rem, 2.5vw, 2.8rem);
+  text-align: center;
+}
+
+.meta {
+  color: var(--muted);
+  margin-bottom: 12px;
+  font-size: 0.95rem;
+}
+
+.question {
+  font-size: 1.25rem;
+  line-height: 1.6;
+  margin-bottom: 24px;
+}
+
+.answers {
+  display: grid;
+  gap: 12px;
+}
+
+.answer-btn {
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  background: transparent;
+  color: var(--text);
+  padding: 16px 18px;
+  border-radius: 14px;
+  text-align: left;
+  cursor: pointer;
+  transition: transform 0.14s ease, border-color 0.14s ease, background 0.14s ease;
+}
+
+.answer-btn:hover {
+  transform: translateY(-1px);
+  border-color: var(--accent);
+}
+
+.answer-btn.selected {
+  border-color: var(--accent);
+  background: rgba(79, 146, 255, 0.08);
+}
+
+.answer-btn.correct {
+  background: rgba(40, 167, 69, 0.14);
+  border-color: rgba(40, 167, 69, 0.45);
+}
+
+.answer-btn.wrong {
+  background: rgba(220, 53, 69, 0.14);
+  border-color: rgba(220, 53, 69, 0.45);
+}
+
+.controls {
+  margin-top: 24px;
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.btn {
+  border: none;
+  padding: 14px 20px;
+  border-radius: 999px;
+  font-weight: 600;
+  cursor: pointer;
+  background: var(--accent);
+  color: #fff;
+  transition: background 0.2s ease, opacity 0.2s ease;
+}
+
+.btn.secondary {
+  background: rgba(255, 255, 255, 0.08);
+  color: var(--text);
+}
+
+.btn:disabled {
+  opacity: 0.55;
+  cursor: not-allowed;
+}
+
+.feedback {
+  margin-top: 18px;
+  min-height: 24px;
+  font-size: 1rem;
+}
+
+.score {
+  margin-top: 10px;
+  color: var(--muted);
+  font-size: 0.95rem;
+}

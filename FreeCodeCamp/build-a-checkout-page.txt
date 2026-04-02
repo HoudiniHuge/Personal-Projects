@@ -1,0 +1,35 @@
+** start of index.html **
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Checkout Page</title>
+</head>
+<body>
+<h1>Checkout</h1>
+<section>
+    <h2>Your Cart</h2>
+    <img src="https://i.pinimg.com/736x/f2/a9/ff/f2a9ffc4c615f75a9ad4d3a66b976f53.jpg" alt="blacked out dodge challenger">
+</section>
+<section>
+    <h2>Payment Information</h2>
+    <form>
+        <label for="card-name">CardHolder Name <span aria-hidden="true" style="color:red">*</span>:</label>
+        <input id="card-name" name="card-name" type="text" required><br>
+        <label for="card-number">Card Number<span aria-hidden="true" style="color:red">*</span>:</label>
+        <input id="card-number" name="card-number" type="text" aria-describedby="card-number-help" required>
+        <p id="card-number-help">(Enter your 16-digit card number without space or dash)</p>
+        <label for="card-number-help">CVV<span aria-hidden="true" style="color:red">*</span>:</label>
+        <input id="card-number-help" name="card-number-help" type="text"><br>
+        <label for="expiration">Expiry Date <span  aria-hidden="true" style="color:red">*</span>:</label>
+        <input id="expiration" name="expiration" type="text" placeholder="MM/YY">
+    </form>
+</section>
+</body>
+<button type="submit">Place Order</button>
+</html>
+
+** end of index.html **
+

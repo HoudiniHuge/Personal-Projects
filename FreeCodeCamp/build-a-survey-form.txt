@@ -1,0 +1,40 @@
+** start of index.html **
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Survey Form</title>
+  </head>
+  <h1 id="title">SMG Football Survey Form</h1>
+  <p id="description">Thanks for taking time to answer and improve our team</p>
+  <body>
+    <form id="survey-form">
+      <label for="name" id="name-label">Name:</label>
+      <input id="name" type="text" required placeholder="John Doe"/><br>
+      <label for="email" type="email" id="email-label">Email:</label>
+      <input id="email" type="email" required placeholder="jon@example.com"/><br>
+      <label for="number" type="number" id="number-label">Age:</label>
+      <input id="number" type="number" min="11" max="22" placeholder="12"/><br>
+      <label for="dropdown">What's your favorite training drill?</label><br>
+      <select id="dropdown">
+        <option>Cones</option>
+        <option>Ball work</option>
+      </select>
+      <label for="referral">Would you invite a Friend to our training?</label>
+      <input type="radio" value="yes" name="referral" id="referral">Yes
+      <input type="radio" value="no" name="referral">No<br>
+      <label for="improve">Anything we can do better?<br>
+      <input type="checkbox" value="training-drills">Training Drills
+      <input type="checkbox" value="cone-work">Improved Cone work
+      <input type="checkbox" value="Shoot-prac">Shooting Practice
+      <input type="checkbox" value="match">More Matches <br>
+      <label for="suggest">Suggestions:</label>
+      <textarea id="suggest"></textarea><br>
+      <button id="submit" type="submit">Submit</button>
+    </form>
+  </body>
+</html>
+
+** end of index.html **
+

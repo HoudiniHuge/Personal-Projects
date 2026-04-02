@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Signup Page</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="signup-page">
+    <section class="signup-card">
+      <div class="brand">
+        <h1>Create Account</h1>
+        <p>Let's get you started!</p>
+      </div>
+
+      <form class="signup-form" action="#" method="post">
+        <div class="field-group">
+          <label for="full-name">Full Name</label>
+          <input type="text" id="full-name" name="full-name" placeholder="Daniel Martin" required />
+        </div>
+
+        <div class="field-group">
+          <label for="email">Email Address</label>
+          <input type="email" id="email" name="email" placeholder="danielmartin@example.com" required />
+        </div>
+
+        <div class="field-row">
+          <div class="field-group half-width">
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" placeholder="Enter password" required />
+          </div>
+
+          <div class="field-group half-width">
+            <label for="confirm-password">Confirm Password</label>
+            <input type="password" id="confirm-password" name="confirm-password" placeholder="Confirm password" required />
+          </div>
+        </div>
+
+        <div class="field-row">
+          <div class="field-group half-width">
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" name="phone" placeholder="(234) 907-5555" />
+          </div>
+
+          <div class="field-group half-width">
+            <label for="dob">Date of Birth</label>
+            <input type="date" id="dob" name="dob" />
+          </div>
+        </div>
+
+        <div class="field-group">
+          <label for="country">Country</label>
+          <select id="country" name="country">
+            <option value="">Select your country</option>
+            <option>Nigeria</option>
+            <option>Canada</option>
+            <option>United Kingdom</option>
+            <option>Australia</option>
+            <option>Other</option>
+          </select>
+        </div>
+
+        <div class="field-group">
+          <label for="bio">Tell us about yourself</label>
+          <textarea id="bio" name="bio" rows="4" placeholder="A short introduction..."></textarea>
+        </div>
+
+        <div class="checkbox-group">
+          <input type="checkbox" id="terms" name="terms" required />
+          <label for="terms">I agree to the <a href="#">Terms of Service</a> and <a href="#">Privacy Policy</a>.</label>
+        </div>
+
+        <button type="submit">Sign Up</button>
+      </form>
+    </section>
+  </main>
+</body>
+</html>

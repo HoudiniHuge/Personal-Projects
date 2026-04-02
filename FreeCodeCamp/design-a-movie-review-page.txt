@@ -1,0 +1,35 @@
+** start of index.html **
+
+<!DOCTYPE html>
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Movie Review</title>
+ </head>
+<body>
+<main>
+    <h1>Movie Review: The Rip</h1>
+    <img src="https://upload.wikimedia.org/wikipedia/en/thumb/a/a8/The_Rip_poster.jpg/250px-The_Rip_poster.jpg" alt="the rip Netflix poster">
+    <p>Finding a secret stash of millions wages internal conflict for a group of Miami officers, pushing trust, loyalty and self-preservation into sharp and dangerous focus.</p>
+    <p><strong>Movie Rating:</strong>
+    <span  aria-hidden="true">⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐</span> (9.0/10)</p>
+
+<h2>Cast Members</h2>
+<ul>
+    <li><strong>Matt Damon</strong> as Lieutenant Dane Dumars</li>
+    <li><strong>Ben Affleck</strong> as Detective Sergeant J.D. Byrne</li>
+    <li><strong>Steven Yeun</strong> as Detective Mike Ro</li>
+    <li><strong>Teyana Taylor</strong> as Detective Numa Baptiste</li>
+    <li><strong>Sasha Calle</strong> as Desiree "Desi" Lopez Molina
+</li>
+    <li><strong>Scott Adkins</strong> as FBI Agent Del Byrne
+</li>
+</ul>
+</main>
+</body>
+
+</html>
+
+** end of index.html **
+

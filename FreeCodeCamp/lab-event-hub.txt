@@ -1,0 +1,52 @@
+** start of index.html **
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Event Hub</title>
+</head>
+
+<body>
+    <header>
+        <h1>Event Hub</h1>
+        <nav>
+            <ul>
+               <li> <a href="#upcoming-events">Upcoming Events</a></li>
+               <li> <a href="#past-events">Past Events</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="upcoming-events">
+            <h2>Upcoming Events</h2>
+            <article>
+                <h3>FIFA World Cup 2026</h3>
+                <p>The 2026 FIFA World Cup will be a historic 23rd edition of the tournament, marking the first time the event is jointly hosted by three nations—Canada, Mexico, and the United States—across 16 cities from June 11 to July 19, 2026.</p>
+            </article>
+            <article>
+                <h3>Formula 1 Australian Grand Prix</h3>
+                <p>The 2026 Formula 1 Australian Grand Prix returns to Melbourne's Albert Park Circuit as the prestigious season-opener from March 5–8, 2026. This four-day event will debut a new generation of lighter, more nimble F1 cars with significant regulatory changes.</p>
+            </article>
+        </section>
+        <section id="past-events">
+        <h2>Past Events</h2>
+        <article>
+            <h3>2025 FIFA Club World Cup</h3>
+            <p>The 2025 FIFA Club World Cup (marketed as Mundial de Clubes FIFA 25) was a landmark event held in the United States from June 14 to July 13, 2025. This edition marked the first time the tournament utilized a significantly expanded format, featuring 32 teams from all six global confederations, including 12 from Europe and 6 from South America.</p>
+            <img src="https://media.gettyimages.com/id/2219233230/photo/los-angeles-california-a-detailed-view-of-the-fifa-club-world-cup-trophy-on-display-at-bmo.jpg?s=612x612&w=0&k=20&c=ZjuhhPGVINhVjtVLoll5NcwwarLXKmfn5-i_Addk1Mo=" alt="FIFA Club world cup Trophy">
+        </article>
+        <article>
+            <h3> Australian Open tennis 2025</h3>
+            <p>The 2025 Australian Open, held from January 12 to 26 at Melbourne Park, was defined by record-breaking attendance and major shifts in both the men’s and women’s games.</p>
+            <img src="https://media.gettyimages.com/id/2195090353/photo/melbourne-australia-novak-djokovic-of-serbia-celebrates-victory-against-carlos-alcaraz-of.jpg?s=612x612&w=0&k=20&c=_E9qf52TsnhScS2zN7iyq8l9QR4YhqxfH5PDviKx92Q=" alt="Novak Djokovic">
+        </article>
+        </section>
+    </main>
+</body>
+
+</html>
+
+** end of index.html **
+

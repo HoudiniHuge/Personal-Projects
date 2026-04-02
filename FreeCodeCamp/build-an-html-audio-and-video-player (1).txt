@@ -1,0 +1,32 @@
+** start of index.html **
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>HTML Audio and Video Lab</title>
+  <h1>Houdini's HTML Audio and Video Player</h1>
+</head>
+<body>
+<section>
+  <h2>Keyboard</h2>
+  <video 
+  controls
+  width="640">
+  <source src="https://www.shutterstock.com/shutterstock/videos/3819179847/preview/stock-footage-man-working-on-laptop-computer-keyboard-with-graphic-user-interface-gui-hologram-showing-concepts.webm" type="video/webm"/>
+  </video>
+</section>
+<section>
+  <h2>Bnxn-Pidgin & English</h2>
+  <audio
+  controls
+  loop
+  src="https://audio.xclusiveloaded.net/storage/mp3/2024/05/BNXN-fka-Buju-Pidgin-English.mp3">
+  </audio>
+</section>
+</body>
+</html>
+
+** end of index.html **
+
